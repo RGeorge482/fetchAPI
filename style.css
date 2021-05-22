@@ -1,0 +1,37 @@
+body{
+  background-image: url(./images/p1.png);
+  background-repeat: no-repeat center;
+  background-size: cover;
+}
+
+#title{
+  font-size: 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#planets{
+  margin-left: 180px;
+}
+
+.btn {
+  font: inherit;
+  font-size: 25px;
+  background: #8a0057;
+  padding: 10px 20px;
+  color: white;
+  margin: 0 20px;
+  cursor: pointer;
+  border: 2px solid #1d0013;
+}
+
+.btn:active {
+  background: #afbecb;
+}
+
+.planet {
+  background-color: #cfcfcf;
+  width: 70%;
+  margin-left: 200px;
+  font: inherit;
+}
